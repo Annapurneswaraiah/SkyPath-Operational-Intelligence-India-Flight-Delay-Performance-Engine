@@ -33,6 +33,8 @@ Develop an interactive Power BI dashboard for business intelligence and performa
 ### Dataset Information
 Dataset Name: Airport_Operations_20k_Realistic.csv
 Dataset Type: Realistic Semi-Synthetic Airport Operations Dataset
+### Project Process
+
 Records: 20,000
 Attributes: 35
 Domain: Airport Operations Analytics
