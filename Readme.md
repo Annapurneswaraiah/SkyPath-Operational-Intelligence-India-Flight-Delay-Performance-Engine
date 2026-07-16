@@ -22,11 +22,15 @@ Assess the impact of weather, ATC, maintenance, baggage, fueling, and catering d
 Perform descriptive and diagnostic analytics to support operational decision-making.
 Develop an interactive Power BI dashboard for business intelligence and performance monitoring.
 ### Tools & Technologies
-Microsoft Excel – Data cleaning and preliminary analysis
-SQL – Data querying, aggregation, and KPI generation
-Python – Data preprocessing, EDA, and statistical analysis
-Power BI – Interactive dashboards and business intelligence
-Dataset Information
+ - Microsoft Excel
+ - Data cleaning and preliminary analysis
+ - SQL
+ - Data querying, aggregation, and KPI generation
+ - Python
+ - Data preprocessing, EDA, and statistical analysis
+ - Power BI
+ - Interactive dashboards and business intelligence
+### Dataset Information
 Dataset Name: Airport_Operations_20k_Realistic.csv
 Dataset Type: Realistic Semi-Synthetic Airport Operations Dataset
 Records: 20,000
