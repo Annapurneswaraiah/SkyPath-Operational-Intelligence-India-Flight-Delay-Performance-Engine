@@ -1,0 +1,73 @@
+
+use airline_delay_db;
+SELECT * FROM airline;
+select*from airline_uncleaned;
+select*from airline;
+SELECT COUNT(*) AS Total_Rows
+FROM airline_uncleaned;
+
+SELECT *
+FROM airline_uncleaned
+WHERE Flight_ID IS NULL
+   OR Airline IS NULL
+   OR Origin IS NULL
+   OR Destination IS NULL;
+   
+   SELECT Flight_ID, COUNT(*)
+FROM airline_uncleaned
+GROUP BY Flight_ID
+HAVING COUNT(*) > 1;
+SET SQL_SAFE_UPDATES = 0;
+UPDATE airline_uncleaned
+SET Airline = TRIM(Airline),
+    Origin = TRIM(Origin),
+    Destination = TRIM(Destination),
+    Aircraft_Type = TRIM(Aircraft_Type),
+    Status = TRIM(Status);
+    
+UPDATE Airline
+SET Gate_Delay_Min = IFNULL(Gate_Delay_Min,0),
+    Fuel_Delay_Min = IFNULL(Fuel_Delay_Min,0),
+    Baggage_Delay_Min = IFNULL(Baggage_Delay_Min,0),
+    Catering_Delay_Min = IFNULL(Catering_Delay_Min,0),
+    Total_Delay_Min = IFNULL(Total_Delay_Min,0);    
+    
+    SELECT *
+FROM airline_uncleaned
+WHERE Gate_Delay_Min < 0
+   OR Fuel_Delay_Min < 0
+   OR Arrival_Delay_Min < 0;
+   
+   SELECT *
+FROM airline_uncleaned
+WHERE Passenger_Count <= 0;
+
+UPDATE Airline
+SET Status = 'On Time'
+WHERE Status = 'On-Time';
+
+SELECT *
+FROM Airline
+WHERE Airline = ''
+   OR Origin = ''
+   OR Destination = '';
+   
+   SELECT *
+FROM Airline
+WHERE Weather_Condition IS NULL;
+
+SELECT *
+FROM Airline
+WHERE Flight_Date IS NULL;
+
+
+SELECT *
+FROM Airline
+WHERE Actual_Departure IS NULL
+   OR Actual_Arrival IS NULL;
+   
+   SELECT COUNT(*) FROM Airline;
+
+SELECT *
+FROM Airline
+WHERE Total_Delay_Min > 500;

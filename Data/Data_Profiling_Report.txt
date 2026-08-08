@@ -1,0 +1,102 @@
+Missing Values
+Flight_ID                         0
+Airline                           0
+Origin                            0
+Destination                       0
+Aircraft_Type                     0
+Terminal                          0
+Gate                              0
+Weather_Condition                 0
+Flight_Date                       0
+Month                             0
+Scheduled_Departure               0
+Scheduled_Arrival                 0
+Status                            0
+Gate_Delay_Min                    0
+Fuel_Delay_Min                    0
+Baggage_Delay_Min                 0
+Catering_Delay_Min                0
+Passenger_Transfer_Delay_Min      0
+Cleaning_Delay_Min                0
+Security_Delay_Min                0
+Maintenance_Delay_Min             0
+ATC_Delay_Min                     0
+Total_Delay_Min                   0
+Departure_Delay_Min               0
+Arrival_Delay_Min                 0
+Passenger_Count                   0
+Load_Factor (%)                   0
+Ground_Staff_Count                0
+Baggage_Count                     0
+Fuel_Quantity_Liters              0
+Gate_Occupancy_Min                0
+Turnaround_Time_Min               0
+Actual_Departure                999
+Actual_Arrival                  999
+Delay_Reason                      0
+dtype: int64
+
+
+Duplicate Flight_IDs : 0
+
+
+Data Types
+Flight_ID                               object
+Airline                                 object
+Origin                                  object
+Destination                             object
+Aircraft_Type                           object
+Terminal                                object
+Gate                                    object
+Weather_Condition                       object
+Flight_Date                     datetime64[ns]
+Month                                   object
+Scheduled_Departure                     object
+Scheduled_Arrival                       object
+Status                                  object
+Gate_Delay_Min                           int64
+Fuel_Delay_Min                           int64
+Baggage_Delay_Min                        int64
+Catering_Delay_Min                       int64
+Passenger_Transfer_Delay_Min             int64
+Cleaning_Delay_Min                       int64
+Security_Delay_Min                       int64
+Maintenance_Delay_Min                    int64
+ATC_Delay_Min                            int64
+Total_Delay_Min                          int64
+Departure_Delay_Min                      int64
+Arrival_Delay_Min                        int64
+Passenger_Count                          int64
+Load_Factor (%)                        float64
+Ground_Staff_Count                       int64
+Baggage_Count                            int64
+Fuel_Quantity_Liters                     int64
+Gate_Occupancy_Min                       int64
+Turnaround_Time_Min                      int64
+Actual_Departure                        object
+Actual_Arrival                          object
+Delay_Reason                            object
+dtype: object
+
+
+Invalid Baggage Delay : 0
+Invalid Total Delay : 0
+Invalid Passenger Count : 0
+
+
+Aircraft Types
+Aircraft_Type
+B787    3381
+A350    3369
+A320    3335
+A321    3314
+B737    3314
+B777    3287
+Name: count, dtype: int64
+
+Status
+Status
+On Time      15089
+Delayed       3912
+Cancelled      999
+Name: count, dtype: int64
