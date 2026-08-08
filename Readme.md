@@ -2,17 +2,13 @@
 
 ### Project Overview
 
-Airport operations involve the coordination of multiple interconnected activities, including flight scheduling, gate allocation, aircraft turnaround, passenger handling, baggage services, fueling, catering, maintenance, and air traffic management. Even small disruptions in these operations can lead to cascading flight delays, increased airport congestion, inefficient resource utilization, and reduced passenger satisfaction. Monitoring these operational processes is essential for improving airport efficiency and supporting informed decision-making.
+This project analyzes airport operational performance using a realistic semi-synthetic dataset containing 20,000 flight records and 35 operational attributes. It focuses on identifying flight delays, congestion, turnaround efficiency, passenger traffic, gate utilization, weather impact, and other operational bottlenecks.
 
-This project presents a comprehensive Airport Operations Analytics solution developed using a realistic semi-synthetic dataset containing 20,000 flight records and 35 operational attributes. The dataset models real-world airport operations by incorporating aviation business rules, realistic operational relationships, and time-based patterns. It captures information related to flight schedules, airlines, aircraft types, airports, weather conditions, passenger traffic, turnaround times, gate occupancy, operational delays, and airport resource utilization.
+The project follows a complete Data Analytics lifecycle, including data cleaning, EDA, statistical analysis, SQL-based KPI generation, and interactive Power BI dashboard development. It primarily uses Descriptive and Diagnostic Analytics to understand operational performance and identify the major causes of delays.
 
-The project follows a complete Data Analytics lifecycle, beginning with data profiling, quality assessment, and data cleaning to ensure consistency and reliability. Exploratory Data Analysis (EDA) is then performed to understand operational patterns, identify trends, detect anomalies, and examine relationships between key variables. Statistical analysis is applied to evaluate data distributions, correlations, and operational performance metrics, while SQL is used to perform efficient querying, aggregation, and KPI generation.
+Tools used include Microsoft Excel, SQL, Python (Pandas, NumPy, Matplotlib), and Power BI to transform raw airport data into actionable business insights and recommendations.
 
-An interactive Power BI dashboard is developed to visualize airport performance through dynamic KPIs, trend analysis, airline comparisons, airport comparisons, delay analysis, weather impact assessment, turnaround efficiency, passenger traffic analysis, and gate utilization monitoring. These visualizations enable users to explore operational performance from multiple perspectives and identify the primary causes of delays and congestion.
-
-The project primarily focuses on Descriptive Analytics to summarize airport operational performance and Diagnostic Analytics to investigate the root causes of delays, congestion, and operational bottlenecks. It does not employ machine learning or predictive models, making it suitable for demonstrating practical business intelligence and data analytics techniques.
-
-This project showcases the integration of Microsoft Excel, SQL, Python (Pandas, NumPy, Matplotlib), and Power BI to transform raw operational data into actionable insights. It demonstrates industry-standard practices in data preparation, statistical analysis, KPI development, dashboard design, and business reporting within the aviation domain.
+The final dashboard provides an interactive view of key operational KPIs, trends, flight status, aircraft performance, and delay patterns. The analysis helps identify areas for improving resource allocation, reducing operational delays, and increasing overall airport efficiency.
 
 ### Objectives
 Analyze airport operational performance using realistic flight operation data.
