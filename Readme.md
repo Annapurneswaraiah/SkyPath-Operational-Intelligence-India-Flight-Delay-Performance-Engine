@@ -41,6 +41,39 @@ Develop an interactive Power BI dashboard for business intelligence and performa
 - Analytics Type: Descriptive Analytics & Diagnostic Analytics
 
 ### Project Process
+1. **Data Collection & Understanding**
+   - Reviewed the Airport Operations dataset and understood the business requirements.
+   - Identified important variables related to flights, delays, passengers, aircraft, and ground operations.
+
+2. **Data Cleaning & Preprocessing**
+   - Checked missing values and duplicate records.
+   - Corrected data types and standardized categorical values.
+   - Validated dates, times, delays, and operational values.
+   - Created the final cleaned dataset.
+
+3. **Exploratory Data Analysis (EDA)**
+   - Performed descriptive statistics and distribution analysis.
+   - Analyzed delays, passenger traffic, turnaround time, and operational factors.
+   - Examined correlations and patterns across important variables.
+
+4. **SQL Analysis**
+   - Used SQL queries for filtering, aggregation, grouping, and KPI calculations.
+   - Analyzed flight performance and operational metrics.
+
+5. **KPI Development**
+   - Defined key business metrics such as total flights, average delay, passenger count, turnaround time, and ground delays.
+
+6. **Power BI Dashboard Development**
+   - Built interactive dashboards using KPI cards, charts, slicers, and filters.
+   - Created pages for overview, trends, aircraft/status analysis, and detailed flight analysis.
+
+7. **Business Insights & Recommendations**
+   - Identified major operational delay factors and congestion patterns.
+   - Developed recommendations related to resource allocation, ground operations, and turnaround efficiency.
+
+8. **Final Documentation**
+   - Prepared the Data Dictionary, Cleaning Log, Business Insights, Dataset Limitations, and README.
+   - Organized project files, dashboard screenshots, and documentation in the GitHub repository.
 
 
 
